@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liz Corson</title>
+    <description>Engineer, maker, and advocate for diversity in STEM.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Apr 2016 18:43:34 -0400</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 18:43:34 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Hello! I’m Liz, and while I’m a chemical engineer by trade, I’ve always enjoyed programming and playing with computers. I’ve also recently gotten into hobby electronics after taking a course which required the use of an Arduino.&lt;/p&gt;
+
+&lt;p&gt;I’ve started this blog to document my projects in a better format than just uploading them to GitHub. I’ll be using microcontrollers, laser cutting, and 3D printing to build all sorts of things.&lt;/p&gt;
+
+&lt;p&gt;Fundamentally, I’m interested in building and programming devices that interact with the physical world, both profesionally and for fun. I’m looking forward to building things that are both fun and useful and experimenting with the Internet of Things.&lt;/p&gt;
+
+&lt;p&gt;I also volunteer to encourage kids, especially those from groups underrepresented in engineering, to pursue careers in STEM. We need new ideas and new paradigms in STEM, and ensuring that people of all races, genders, sexualities, etc, can contribute will result in a better future for us all. I do outreach with the Society of Women Engineers towards that end.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Apr 2016 17:41:51 -0400</pubDate>
+        <link>http://yourdomain.com/intro/2016/04/10/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/intro/2016/04/10/welcome-to-jekyll.html</guid>
+        
+        
+        <category>intro</category>
+        
+      </item>
+    
+  </channel>
+</rss>
