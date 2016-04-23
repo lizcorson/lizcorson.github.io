@@ -4,10 +4,10 @@
     <title>Liz Corson</title>
     <description>Engineer, maker, and advocate for diversity in STEM.
 </description>
-    <link>http://lizcorson.github.io//</link>
-    <atom:link href="http://lizcorson.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Apr 2016 14:40:59 -0400</pubDate>
-    <lastBuildDate>Sat, 23 Apr 2016 14:40:59 -0400</lastBuildDate>
+    <link>http://lizcorson.github.io/</link>
+    <atom:link href="http://lizcorson.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Apr 2016 14:43:03 -0400</pubDate>
+    <lastBuildDate>Sat, 23 Apr 2016 14:43:03 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -19,23 +19,23 @@
 &lt;p&gt;I hope to make some sort of case to neaten this up, but I may not have time. The code and a bill of materials are available in my &lt;a href=&quot;http://github.com/lizcorson/colormixer&quot;&gt;GitHub repository here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I made a schematic using Fritzing:
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/colormixer.png&quot; alt=&quot;Schematic&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/colormixer.png&quot; alt=&quot;Schematic&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s the whole thing:
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/wholesystem.jpg&quot; alt=&quot;Whole system&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/wholesystem.jpg&quot; alt=&quot;Whole system&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here’s a closeup of the circuit board:
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/boardcloseup.jpg&quot; alt=&quot;Circuit board closeup&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/boardcloseup.jpg&quot; alt=&quot;Circuit board closeup&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And here is a demo of the color mixing, red -&amp;gt; magenta -&amp;gt; white.
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/redonly.jpg&quot; alt=&quot;Red LED&quot; /&gt;
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/mix-magenta.jpg&quot; alt=&quot;Magenta LED&quot; /&gt;
-&lt;img src=&quot;http://lizcorson.github.io//assets/colormixer/mix-white.jpg&quot; alt=&quot;White LED&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/redonly.jpg&quot; alt=&quot;Red LED&quot; /&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/mix-magenta.jpg&quot; alt=&quot;Magenta LED&quot; /&gt;
+&lt;img src=&quot;http://lizcorson.github.io/assets/colormixer/mix-white.jpg&quot; alt=&quot;White LED&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 14:01:00 -0400</pubDate>
-        <link>http://lizcorson.github.io//2016/04/23/colormixer.html</link>
-        <guid isPermaLink="true">http://lizcorson.github.io//2016/04/23/colormixer.html</guid>
+        <link>http://lizcorson.github.io/2016/04/23/colormixer.html</link>
+        <guid isPermaLink="true">http://lizcorson.github.io/2016/04/23/colormixer.html</guid>
         
         <category>Girl</category>
         
@@ -59,8 +59,8 @@
 &lt;p&gt;I also volunteer to encourage kids, especially those from groups underrepresented in engineering, to pursue careers in STEM. We need new ideas and new paradigms in STEM, and ensuring that people of all races, genders, sexualities, etc, can contribute will result in a better future for us all. I do outreach with the Society of Women Engineers towards that end.&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Apr 2016 17:41:51 -0400</pubDate>
-        <link>http://lizcorson.github.io//intro/2016/04/10/hello-world.html</link>
-        <guid isPermaLink="true">http://lizcorson.github.io//intro/2016/04/10/hello-world.html</guid>
+        <link>http://lizcorson.github.io/intro/2016/04/10/hello-world.html</link>
+        <guid isPermaLink="true">http://lizcorson.github.io/intro/2016/04/10/hello-world.html</guid>
         
         
         <category>intro</category>
