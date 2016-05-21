@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Liz Corson</title>
-  <meta name="description" content="Engineer, maker, and advocate for diversity in STEM.
-">
+  <title>Using MQTT to Monitor Temperature and Humidity</title>
+  <meta name="description" content="Everyone’s having fun with the Internet of Things these days, and I’m joining in.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://lizcorson.github.io/">
+  <link rel="canonical" href="http://lizcorson.github.io/2016/05/21/mqtt_rht.html">
   <link rel="alternate" type="application/rss+xml" title="Liz Corson" href="http://lizcorson.github.io/feed.xml">
 </head>
 
@@ -55,41 +54,37 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Using MQTT to Monitor Temperature and Humidity</h1>
+    <p class="post-meta"><time datetime="2016-05-21T17:51:00-04:00" itemprop="datePublished">May 21, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">May 21, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>Everyone’s having fun with the Internet of Things these days, and I’m joining in.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/05/21/mqtt_rht.html">Using MQTT to Monitor Temperature and Humidity</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 23, 2016</span>
+<p>I’ve decided to make an Intranet of Things using my own local MQTT broker. A couple months ago, I got a Raspberry Pi 3 and set it up with Raspbian Jessie Lite. I installed Mosquitto from the Debian repository, and voila, my own MQTT broker was up and running. I downloaded an MQTT app for my phone to subscribe and publish to whatever feeds I make. It really is very easy.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/04/23/colormixer.html">Color Mixer</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 10, 2016</span>
+<p>My first goal was to make a temperature/relative humidity sensor that would publish data to MQTT. Eventually I’d like to log these values somehow, maybe to a text file or a database, and make some kind of web dashboard.</p>
 
-        <h2>
-          <a class="post-link" href="/intro/2016/04/10/hello-world.html">Hello World!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>I finally got a chance to solder one of these together. It uses a cheap ESP8266 board from AliExpress and an HTU21D clone board for temperature and relative humidity.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p><img src="http://lizcorson.github.io/assets/firstunit.jpg" alt="Photo of ESP8266 and HTU21D" /></p>
 
-</div>
+<p>The app MQTT Dashboard lets you subscribe and publish, and it’s a great app with lots of features, like time series plots and a color picker. I highly recommend it. (Guess when I breathed on the sensor.)</p>
+
+<p><img src="http://lizcorson.github.io/assets/mqttdashboard_feeds.png" alt="Feeds" />
+<img src="http://lizcorson.github.io/assets/mqttdashboard_rhplot.png" alt="Time series plot" /></p>
+
+<p>The code is available on my <a href="http://github.com/lizcorson/mqtt_rht">GitHub repository here</a>.</p>
+
+<p>If you’d like to make your own, here’s the schematic:
+<img src="http://lizcorson.github.io/assets/esp8266_htu21d.png" alt="Schematic" /></p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
