@@ -6,8 +6,8 @@
 </description>
     <link>http://lizcorson.github.io/</link>
     <atom:link href="http://lizcorson.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jun 2016 22:49:00 -0400</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2016 22:49:00 -0400</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 23:18:17 -0400</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 23:18:17 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://lizcorson.github.io/assets/analogmultiplex.jpg&quot; alt=&quot;Photo of analog multiplexing circuit&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ll be posting my progress on my &lt;a href=&quot;http://github.com/lizcorson/catlasertoy&quot;&gt;GitHub repository here&lt;/a&gt;. This circuit needs one more thing: a voltage divider to convert the output to a 0-1V range.&lt;/p&gt;
+&lt;p&gt;I’ll be posting my progress on my &lt;a href=&quot;http://github.com/lizcorson/lasercattoy&quot;&gt;GitHub repository here&lt;/a&gt;. This circuit needs one more thing: a voltage divider to convert the output to a 0-1V range.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Jun 2016 22:28:00 -0400</pubDate>
         <link>http://lizcorson.github.io/2016/06/30/cat-laser-toy-analog-multiplex.html</link>
