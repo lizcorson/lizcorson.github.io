@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Liz Corson</title>
-  <meta name="description" content="Engineer, maker, and advocate for diversity in STEM.
-">
+  <title>Cat Laser Toy: Analog Multiplexing</title>
+  <meta name="description" content="My next project will be to make an MQTT-based, remote-controlled cat laser toy. One microcontroller will have a joystick, and the other will use two servos t...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://lizcorson.github.io/">
+  <link rel="canonical" href="http://lizcorson.github.io/2016/06/30/cat-laser-toy-analog-multiplex.html">
   <link rel="alternate" type="application/rss+xml" title="Liz Corson" href="http://lizcorson.github.io/feed.xml">
 </head>
 
@@ -55,49 +54,33 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Cat Laser Toy: Analog Multiplexing</h1>
+    <p class="post-meta"><time datetime="2016-06-30T22:28:00-04:00" itemprop="datePublished">Jun 30, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 30, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>My next project will be to make an MQTT-based, remote-controlled cat laser toy. One microcontroller will have a joystick, and the other will use two servos to point a laser.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/06/30/cat-laser-toy-analog-multiplex.html">Cat Laser Toy: Analog Multiplexing</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 21, 2016</span>
+<p>The first problem is that the Adafruit Feather Huzzah (and all ESP8266s) only has one analog input pin. A joystick is essentially two potentiometers, so two analog inputs are required.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/05/21/mqtt_rht.html">Using MQTT to Monitor Temperature and Humidity</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 23, 2016</span>
+<p>One solution to this is to use a multiplexer IC. By using 3 digital pins, you can read up to 8 analog inputs on one analog line. Setting different combinations of high and low allows you to select from multiple analog inputs connected to the IC.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/04/23/colormixer.html">Color Mixer</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 10, 2016</span>
+<p>The circuit below uses the Texas Instruments CD74HC4051E to read two analog inputs on A0. Additionally, I have connected the potentiometers directly to two other analog pins to verify the multiplexer readings. <a href="http://www.gammon.com.au/forum/?id=11976">This forum post</a> was instrumental in setting this up.</p>
 
-        <h2>
-          <a class="post-link" href="/intro/2016/04/10/hello-world.html">Hello World!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p><img src="http://lizcorson.github.io/assets/analogmultiplexschematic.png" alt="Schematic of analog multiplexing circuit" /></p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p><img src="http://lizcorson.github.io/assets/analogmultiplexserial.png" alt="Serial debug output of analog multiplexing circuit" /></p>
 
-</div>
+<p><img src="http://lizcorson.github.io/assets/analogmultiplex.jpg" alt="Photo of analog multiplexing circuit" /></p>
+
+<p>I’ll be posting my progress on my <a href="http://github.com/lizcorson/catlasertoy">GitHub repository here</a>. This circuit needs one more thing: a voltage divider to convert the output to a 0-1V range.</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
